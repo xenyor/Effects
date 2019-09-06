@@ -1,7 +1,7 @@
 # IntelliJ / Java
 target
 *.iml
-idea
+.idea
 
 #Compiled class file
 *.class
