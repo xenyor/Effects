@@ -17,7 +17,6 @@ public class EffectsInventoryClick implements Listener {
     public void onInventoryClick(InventoryClickEvent event) {
         if (event.getInventory() == null) return;
         if (event.getCurrentItem() == null) return;
-
         Player player = (Player) event.getWhoClicked();
 
         if (event.getInventory().getName().equals(ChatColor.translateAlternateColorCodes('&', EffectsInv.invName))) {
@@ -84,7 +83,6 @@ public class EffectsInventoryClick implements Listener {
                             player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.regenCooldown.get(player.getUniqueId()) + EffectsInv.RegenCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
                         }
                         break;
-
                 }
             } else {
                 player.sendMessage(ChatColor.translateAlternateColorCodes('&', EffectsInv.noperms));

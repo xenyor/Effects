@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8504ae3c-daf7-47b7-9ebd-076c555fc3a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/InventoryManager/EffectsInv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/InventoryManager/EffectsOpenInv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsOpenInv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/Listeners/EffectsInventoryClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Listeners/EffectsInventoryClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/Main/EffectsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/EffectsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsOpenInv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsOpenInv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Listeners/EffectsInventoryClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Listeners/EffectsInventoryClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/EffectsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/EffectsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/EffectsMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="162">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="1015">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsOpenInv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/Listeners/EffectsInventoryClick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="318">
+              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +100,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/InventoryManager/EffectsOpenInv.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/InventoryManager/EffectsInv.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/Listeners/EffectsInventoryClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/Main/EffectsMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/EffectsMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsOpenInv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/xenyor/effects/Listeners/EffectsInventoryClick.java" />
       </list>
     </option>
   </component>
@@ -220,7 +224,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567799462945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567799805999" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
@@ -257,7 +261,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -273,7 +277,7 @@
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -304,10 +308,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsOpenInv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -316,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/Listeners/EffectsInventoryClick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="318">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -326,25 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/Main/EffectsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/xenyor/effects/InventoryManager/EffectsInv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="162">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,6 +5,9 @@
 plugin-no-permission: "&cYou don't have enough permissions to use this!"
 plugin-effect-on-cooldown: "&cThis effect is on cooldown! Wait &l%timeleft &cmore seconds!"
 
+# If you wanna show the Nametag that shows a little information in the menu.
+effects-info-nametag: true
+
 inventory:
   inventory-name: "&6Effects"
   inventory-info-name: "&6Effects"

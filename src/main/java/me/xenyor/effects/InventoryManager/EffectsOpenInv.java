@@ -15,9 +15,7 @@ public class EffectsOpenInv implements CommandExecutor {
         if (cmd.getName().equalsIgnoreCase("effects")) {
             Player player = (Player) sender;
             if (player.hasPermission("effects.menu") || player.hasPermission("effects.*")) {
-
                 EffectsInv.openInventory(player);
-
             } else {
                 player.sendMessage(ChatColor.translateAlternateColorCodes('&', noperms));
             }

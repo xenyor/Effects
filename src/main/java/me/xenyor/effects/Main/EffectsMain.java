@@ -20,7 +20,7 @@ public class EffectsMain extends JavaPlugin {
 
     public void onEnable() {
 
-        log.info("Effects Plugin has been enabled (V. " + getDescription().getVersion() + "), made by Xenyor");
+        log.info("[Effects] Plugin has been enabled (V. " + getDescription().getVersion() + ")");
 
         createCustomConfig();
         registerCommands();
@@ -28,6 +28,7 @@ public class EffectsMain extends JavaPlugin {
 
     }
     public void onDisable() {
+        log.info("[Effects] Plugin has been disabled.");
 
     }
 

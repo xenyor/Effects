@@ -106,20 +106,21 @@ public class EffectsInv {
         effectInvItems.add(itemMaterial);
     }
 
-
     private static void updateInventory(Inventory inv) {
 
         inv.clear();
 
 
         // Manually setting "Info" item
-        ItemStack Info = new ItemStack(Material.NAME_TAG, 1);
-        ItemMeta InfoMeta = Info.getItemMeta();
-        InfoMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', InfoName));
-        InfoMeta.setLore(Collections.singletonList(ChatColor.translateAlternateColorCodes('&', InfoLore)));
-        Info.setItemMeta(InfoMeta);
+        if(EffectsMain.getCustomConfig().getBoolean("effects-info-nametag")) {
+            ItemStack Info = new ItemStack(Material.NAME_TAG, 1);
+            ItemMeta InfoMeta = Info.getItemMeta();
+            InfoMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', InfoName));
+            InfoMeta.setLore(Collections.singletonList(ChatColor.translateAlternateColorCodes('&', InfoLore)));
+            Info.setItemMeta(InfoMeta);
 
-        inv.setItem(4, Info);
+            inv.setItem(4, Info);
+        }
 
         createItems();
 
@@ -127,9 +128,5 @@ public class EffectsInv {
         for(int i = 10; i<=13; i++) {
             inv.setItem(i, effectInvItems.get(i-10));
         }
-
-
-
     }
-
 }
