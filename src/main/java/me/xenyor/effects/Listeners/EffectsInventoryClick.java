@@ -27,7 +27,6 @@ public class EffectsInventoryClick implements Listener {
 
                     case 10:
                         if ((System.currentTimeMillis() / 1000) >= (EffectsInv.speedCooldown.get(player.getUniqueId()) + EffectsInv.SpeedCd)) {
-                            Bukkit.broadcastMessage("speed ingen cooldown, spelare får effect");
 
                             player.playSound(player.getLocation(), Sound.BLOCK_CLOTH_STEP, 1, 1);
 
@@ -37,7 +36,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.speedCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.speedCooldown.get(player.getUniqueId()) + EffectsInv.SpeedCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.speedCooldown.get(player.getUniqueId()) + EffectsInv.SpeedCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
                         }
                         break;
 
@@ -52,7 +51,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.jumpCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.jumpCooldown.get(player.getUniqueId()) + EffectsInv.JumpCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.jumpCooldown.get(player.getUniqueId()) + EffectsInv.JumpCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
                         }
                         break;
                     case 12:
@@ -66,7 +65,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.invisCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.invisCooldown.get(player.getUniqueId()) + EffectsInv.InvisCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.invisCooldown.get(player.getUniqueId()) + EffectsInv.InvisCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
                         }
                         break;
                     case 13:
@@ -80,7 +79,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.regenCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.regenCooldown.get(player.getUniqueId()) + EffectsInv.RegenCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.regenCooldown.get(player.getUniqueId()) + EffectsInv.RegenCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
                         }
                         break;
                 }
