@@ -1,7 +1,7 @@
-package me.xenyor.effects.Main.Main;
+package me.xenyor.effects.Main;
 
-import me.xenyor.effects.Main.InventoryManager.EffectsOpenInv;
-import me.xenyor.effects.Main.Listeners.EffectsInventoryClick;
+import me.xenyor.effects.InventoryManager.EffectsOpenInv;
+import me.xenyor.effects.Listeners.EffectsInventoryClick;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginManager;

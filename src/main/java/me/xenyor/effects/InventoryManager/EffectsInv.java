@@ -1,7 +1,7 @@
-package me.xenyor.effects.Main.InventoryManager;
+package me.xenyor.effects.InventoryManager;
 
 import com.google.common.collect.Maps;
-import me.xenyor.effects.Main.Main.EffectsMain;
+import me.xenyor.effects.Main.EffectsMain;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -98,11 +98,11 @@ public class EffectsInv {
         ItemStack itemMaterial = new ItemStack(material);
         PotionMeta itemMeta = (PotionMeta) itemMaterial.getItemMeta();
         itemMeta.setBasePotionData(new PotionData(potionType));
-        itemMeta.setDisplayName(displayName);
-        itemMeta.setLore(Collections.singletonList(lore));
+        itemMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', displayName));
+        itemMeta.setLore(Collections.singletonList(ChatColor.translateAlternateColorCodes('&', (lore))));
         itemMaterial.setItemMeta(itemMeta);
 
-        // Add item to list, used to put all items into inv
+        // Add item to list, this is used to put all items into inv
         effectInvItems.add(itemMaterial);
     }
 
@@ -124,7 +124,7 @@ public class EffectsInv {
         createItems();
 
         // Putting every "Potion" item into the inventory
-        for(int i = 10; i<13; i++) {
+        for(int i = 10; i<=13; i++) {
             inv.setItem(i, effectInvItems.get(i-10));
         }
 

@@ -1,6 +1,6 @@
-package me.xenyor.effects.Main.Listeners;
+package me.xenyor.effects.Listeners;
 
-import me.xenyor.effects.Main.InventoryManager.EffectsInv;
+import me.xenyor.effects.InventoryManager.EffectsInv;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;

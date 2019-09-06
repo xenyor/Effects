@@ -1,6 +1,6 @@
-package me.xenyor.effects.Main.InventoryManager;
+package me.xenyor.effects.InventoryManager;
 
-import me.xenyor.effects.Main.Main.EffectsMain;
+import me.xenyor.effects.Main.EffectsMain;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
