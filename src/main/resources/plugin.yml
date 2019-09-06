@@ -1,0 +1,16 @@
+main: me.xenyor.effects.Main.EffectsMain
+version: 1.0
+author: Xenyor
+name: Effects
+api-version: 1.12.2
+
+commands:
+  effects:
+    description: Opens the menu
+permissions:
+  effects.menu:
+    description: Access to the menu
+    default: true
+  effects.*:
+    description: Access to everything
+    default: false

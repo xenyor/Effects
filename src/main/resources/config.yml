@@ -1,0 +1,37 @@
+# Hi and welcome to the config! Please do NOT
+# edit this if you don't know what you're doing.
+# Effects plugin made by Xenyor
+
+plugin-no-permission: "&cYou don't have enough permissions to use this!"
+plugin-effect-on-cooldown: "&cThis effect is on cooldown! Wait &l%timeleft &cmore seconds!"
+
+inventory:
+  inventory-name: "&6Effects"
+  inventory-info-name: "&6Effects"
+  inventory-info-lore: "&e&oThis is where you can change and apply your effects!"
+
+effects:
+  # Duration in seconds, amplifier is 'strenght' of effect, written as 0 or 1.
+  speed:
+    inventory-speed-name: "&1Speed"
+    inventory-speed-lore: "&b&oYou'll run as fast as the light with this effect!"
+    effect-speed-duration: 10
+    effect-speed-amplifier: 1
+    effect-speed-cooldown: 60
+  jump:
+    inventory-jump-name: "&2Jump"
+    inventory-jump-lore: "&a&oYou'll jump higher than the moon with this effect!"
+    effect-jump-duration: 10
+    effect-jump-amplifier: 1
+    effect-jump-cooldown: 60
+  invisible:
+    inventory-invisible-name: "&3Invisible"
+    inventory-invisible-lore: "&9&oHide from all danger!"
+    effect-invisible-duration: 10
+    effect-invisible-cooldown: 60
+  regeneration:
+    inventory-regeneration-name: "&6Regeneration"
+    inventory-regeneration-lore: "&9&oSurvive the hottest there is!"
+    effect-regeneration-duration: 10
+    effect-regeneration-amplifier: 1
+    effect-regeneration-cooldown: 60
