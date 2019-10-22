@@ -79,23 +79,23 @@ public class EffectsInv {
         EffectsInv ei = new EffectsInv();
 
         // Speed Potion
-        ei.newPotionItem(Material.POTION, PotionType.SPEED, SpeedName, SpeedLore);
+        ei.newPotionItem(PotionType.SPEED, SpeedName, SpeedLore);
 
         // Jump Potion
-        ei.newPotionItem(Material.POTION, PotionType.JUMP, JumpName, JumpLore);
+        ei.newPotionItem(PotionType.JUMP, JumpName, JumpLore);
 
         // Invis Potion
-        ei.newPotionItem(Material.POTION, PotionType.INVISIBILITY, InvisName, InvisLore);
+        ei.newPotionItem(PotionType.INVISIBILITY, InvisName, InvisLore);
 
         // Regen Potion
-        ei.newPotionItem(Material.POTION, PotionType.REGEN, RegenName, RegenLore);
+        ei.newPotionItem(PotionType.REGEN, RegenName, RegenLore);
 
     }
 
-    public void newPotionItem(Material material, PotionType potionType, String displayName, String lore) {
+    private void newPotionItem(PotionType potionType, String displayName, String lore) {
 
         // Create new item
-        ItemStack itemMaterial = new ItemStack(material);
+        ItemStack itemMaterial = new ItemStack(Material.POTION);
         PotionMeta itemMeta = (PotionMeta) itemMaterial.getItemMeta();
         itemMeta.setBasePotionData(new PotionData(potionType));
         itemMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', displayName));
@@ -109,7 +109,6 @@ public class EffectsInv {
     private static void updateInventory(Inventory inv) {
 
         inv.clear();
-
 
         // Manually setting "Info" item
         if(EffectsMain.getCustomConfig().getBoolean("effects-info-nametag")) {

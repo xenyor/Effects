@@ -1,7 +1,6 @@
 package me.xenyor.effects.Listeners;
 
 import me.xenyor.effects.InventoryManager.EffectsInv;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
@@ -51,7 +50,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.jumpCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.jumpCooldown.get(player.getUniqueId()) + EffectsInv.JumpCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.jumpCooldown.get(player.getUniqueId()) + EffectsInv.JumpCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
                         }
                         break;
                     case 12:
@@ -65,7 +64,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.invisCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.invisCooldown.get(player.getUniqueId()) + EffectsInv.InvisCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.invisCooldown.get(player.getUniqueId()) + EffectsInv.InvisCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
                         }
                         break;
                     case 13:
@@ -79,7 +78,7 @@ public class EffectsInventoryClick implements Listener {
                             EffectsInv.regenCooldown.put(player.getUniqueId(), System.currentTimeMillis() / 1000);
 
                         } else {
-                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.regenCooldown.get(player.getUniqueId()) + EffectsInv.RegenCd) - (System.currentTimeMillis() / 1000))) + ChatColor.RED + " more seconds!");
+                            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cThis effect is on cooldown. Wait &l" + Long.toString((EffectsInv.regenCooldown.get(player.getUniqueId()) + EffectsInv.RegenCd) - (System.currentTimeMillis() / 1000))) + " &cmore seconds!");
                         }
                         break;
                 }

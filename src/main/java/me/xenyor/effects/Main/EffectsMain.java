@@ -56,8 +56,10 @@ public class EffectsMain extends JavaPlugin {
         customConfig = new YamlConfiguration();
         try {
             customConfig.load(customConfigFile);
+            log.info("[Effects] Config has been loaded.");
         } catch (IOException | InvalidConfigurationException e) {
             e.printStackTrace();
+            log.info("[Effects] There has been an error loading the config, if this keeps happening contact the Developers of the plugin.");
         }
     }
 }
